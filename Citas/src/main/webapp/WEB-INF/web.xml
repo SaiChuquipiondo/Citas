@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>Citas</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>OdontologoController</display-name>
+    <servlet-name>OdontologoController</servlet-name>
+    <servlet-class>com.controller.OdontologoController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OdontologoController</servlet-name>
+    <url-pattern>/OdontologoController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CitasController</display-name>
+    <servlet-name>CitasController</servlet-name>
+    <servlet-class>com.controller.CitasController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CitasController</servlet-name>
+    <url-pattern>/CitasController</url-pattern>
+  </servlet-mapping>
+</web-app>
